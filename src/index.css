@@ -49,6 +49,18 @@
   --sidebar-border: oklch(0.92 0.004 286.32);
   --sidebar-ring: oklch(0.705 0.015 286.067);
 }
+.carousel-button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.carousel-button:hover {
+  background-color: red;
+}
+
 
 a {
   font-weight: 500;
