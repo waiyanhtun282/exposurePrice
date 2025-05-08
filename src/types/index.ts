@@ -3,7 +3,4 @@ export type Products = {
     images:string;
 };
 
-export type WeddingType = {
-  id: string;
-  images: string;
-};
+

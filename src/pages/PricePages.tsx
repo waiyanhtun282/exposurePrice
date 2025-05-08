@@ -1,6 +1,7 @@
 import Logo from "@/assets/Exposure.png";
 import CarouselCard from "@/components/carouseal/CarousealCard";
-import { PreWeddingPrice, Price } from "@/data/price";
+import WeddingCarousealCard from "@/components/carouseal/WeddinCarousealCard";
+
 const PricePages = () => {
   return (
     <section className=" container mx-auto">
@@ -12,7 +13,7 @@ const PricePages = () => {
           Pre Wedding Services
         </p>
         <div className=" flex  justify-center">
-          <CarouselCard price={Price} />
+          <CarouselCard  />
         </div>
       </section>
       <section className=" container mx-auto">
@@ -20,7 +21,7 @@ const PricePages = () => {
           Wedding Services
         </p>
         <div className=" flex  justify-center">
-          <CarouselCard price={PreWeddingPrice} />
+          <WeddingCarousealCard />
         </div>
       </section>
     </section>
